@@ -17,7 +17,7 @@
 - [x] GET / : 홈  
   
 글 목록 조회  
-- [ ] GET /post/list : 전체 글 리스트  
+- [x] GET /post/list : 전체 글 리스트  
   
 내 글 목록 조회  
 - [ ] GET /post/myList : 내 글 리스트  
