@@ -17,3 +17,4 @@ public interface PostRepository extends JpaRepository<Post, Long> {
             String kw_,
             Pageable pageable
     );
+}
