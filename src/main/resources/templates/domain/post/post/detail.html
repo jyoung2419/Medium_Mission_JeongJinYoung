@@ -29,6 +29,7 @@
     <div>
         <button onclick="history.back();">뒤로가기</button>
         <a th:if="${@postService.canModify(@rq.member, post)}" th:href="|/post/${post.id}/modify|">글 수정</a>
+
         <form style="display: contents"
               th:if="${@postService.canDelete(@rq.member, post)}"
               th:action="|/post/${post.id}/delete|"
